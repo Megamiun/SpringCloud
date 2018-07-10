@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configServer/configServer.iml" filepath="$PROJECT_DIR$/.idea/modules/configServer/configServer.iml" group="configServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configServer/configServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configServer/configServer_main.iml" group="configServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configServer/configServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configServer/configServer_test.iml" group="configServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekaServer/eurekaServer.iml" group="eurekaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/receiverServer/receiverServer.iml" filepath="$PROJECT_DIR$/.idea/modules/receiverServer/receiverServer.iml" group="receiverServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/senderServer/senderServer.iml" filepath="$PROJECT_DIR$/.idea/modules/senderServer/senderServer.iml" group="senderServer" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />
+    </modules>
+  </component>
+</project>
