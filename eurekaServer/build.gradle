@@ -14,6 +14,6 @@ dependencyManagement {
 
 dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
-    
+    Implementation 'org.springframework.boot:spring-boot-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
