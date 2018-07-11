@@ -1,0 +1,29 @@
+spring:
+   h2:
+      console:
+         path:/h2-console
+
+   datasource:
+      url:'jdbc:h2:mem:testdb'
+      username:sa
+      password:""
+      
+   jpa:
+      - show-sql:true
+      - properties:
+         hibernate:
+            format_sql:true
+
+      - hibernate:
+            ddl-auto:create
+
+   rabbitmq:
+      host:localhost
+      port:5672
+      username:guest
+      password:guest
+
+jsa:
+   rabbitmq:
+      exchange:jsa.direct
+      routingkey:jsa.routingkey
