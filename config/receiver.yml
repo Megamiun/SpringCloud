@@ -1,10 +1,10 @@
 spring:
-   rabbitmq:
-      host: rabbit-mq
-      port: 5672
-      username: teste
-      password: teste
+  rabbitmq:
+    host: rabbit-mq
+    port: 5672
+    username: teste
+    password: teste
 
 jsa:
-   rabbitmq:
-      queue: jsa.queue
+  rabbitmq:
+    queue: jsa.queue
