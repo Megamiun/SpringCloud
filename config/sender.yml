@@ -20,10 +20,13 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: guest
-    password: guest
+    username: teste
+    password: teste
 
 jsa:
   rabbitmq:
     exchange: jsa.direct
     routingkey: jsa.routingkey
+
+server:
+  port: 8001
