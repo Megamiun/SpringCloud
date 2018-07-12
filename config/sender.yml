@@ -20,8 +20,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: teste
-    password: teste
+    username: ale
+    password: ale
 
 jsa:
   rabbitmq:
