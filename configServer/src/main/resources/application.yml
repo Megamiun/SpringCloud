@@ -4,7 +4,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/megamiun/SpringCloud
+          uri: ${HOME}/git/SpringCloud
           searchPaths: /config
 
 server:
