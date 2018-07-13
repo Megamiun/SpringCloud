@@ -6,8 +6,5 @@ import org.springframework.stereotype.Repository;
 import br.com.veigarReceiver.domain.Tarefas;
 
 @Repository
-public interface TarefasRepository extends JpaRepository<TarefasRepository, Integer> {
-
-	void save(Tarefas tarefas);
-
+public interface TarefasRepository extends JpaRepository<Tarefas, Integer> {
 }

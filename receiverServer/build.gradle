@@ -18,9 +18,8 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
     implementation 'org.hibernate:hibernate-core'
     implementation 'org.hibernate:hibernate-entitymanager'
-    implementation 'com.h2database:h2'
-    implementation 'org.hibernate:hibernate-core'
     implementation 'org.springframework.data:spring-data-jpa'
+    implementation 'com.h2database:h2'
     
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

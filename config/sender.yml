@@ -8,6 +8,12 @@ spring:
     username: sa
     password: ""
 
+  rabbitmq:
+    host: 10.200.5.211
+    port: 5672
+    username: ale
+    password: ale
+
   jpa:
     - show-sql: true
     - properties:
@@ -17,12 +23,6 @@ spring:
     - hibernate:
       ddl-auto: create
 
-  rabbitmq:
-    host: 10.200.5.211
-    port: 5672
-    username: ale
-    password: ale
-
 jsa:
   rabbitmq:
     exchange: jsa.direct
@@ -30,3 +30,10 @@ jsa:
 
 server:
   port: 8001
+
+application.name: sender
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
