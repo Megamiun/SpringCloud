@@ -5,16 +5,16 @@ spring:
     username: ale
     password: ale
  
-    h2:
-     console:
-       path: /h2-console
+  h2:
+    console:
+      path: /h2-console
 
-    datasource:
-      url: jdbc:h2:mem:testdb
-      username: sa
-      password: ""
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: ""
 
-    jpa:
+  jpa:
     - show-sql: true
     - properties:
       hibernate:
@@ -22,7 +22,6 @@ spring:
 
     - hibernate:
       ddl-auto: create
-
 
 jsa:
   rabbitmq:
