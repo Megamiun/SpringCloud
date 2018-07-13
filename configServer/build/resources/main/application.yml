@@ -2,9 +2,10 @@
 spring:
   cloud:
     config:
+      label: AlexandreSpringCloud
       server:
         git:
-          uri: https://github.com/megamiun/SpringCloud
+          uri: ${HOME}/git/SpringCloud
           searchPaths: /config
 
 server:

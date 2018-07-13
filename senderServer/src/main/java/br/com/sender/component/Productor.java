@@ -27,13 +27,12 @@ public class Productor {
 	
 	public void produceMessenger(Tarefas tarefa) {
 		try {
-				
 			ObjectMapper objectJSON = new ObjectMapper();
 			String msg = objectJSON.writeValueAsString(tarefa);
 			
 			amqpTemplate.convertAndSend(exchange,routingKey,msg);
 		
-		}catch(AmqpException | JsonProcessingException excetion) {
+		} catch(AmqpException | JsonProcessingException excetion) {
 			excetion.printStackTrace();
 		}
 	}
