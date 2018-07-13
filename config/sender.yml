@@ -18,7 +18,7 @@ spring:
       ddl-auto: create
 
   rabbitmq:
-    host: localhost
+    host: 10.200.5.211
     port: 5672
     username: ale
     password: ale
