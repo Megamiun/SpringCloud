@@ -2,10 +2,10 @@
 spring:
   cloud:
     config:
-      label: AlexandreSpringCloud
+      label: alt-uncorrected
       server:
         git:
-          uri: ${HOME}/git/SpringCloud
+          uri: https://github.com/megamiun/SpringCloud
           searchPaths: /config
 
 server:
